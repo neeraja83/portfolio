@@ -4,26 +4,36 @@
   <head>
 
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Creative - Start Bootstrap Theme</title>
+    <title>Neeraja Ganesh Portfolio</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet">
 
     <!-- Custom fonts for this template -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Monserrat:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
 
     <!-- Plugin CSS -->
     <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="css/creative.min.css" rel="stylesheet">
-
+      
+    <!--DOM start-->
+      <script>
+        $(document).ready(function() {
+                     //Set the carousel options
+              $('#myCarousel').carousel({pause: true,interval: 1000});
+        });
+      </script>
+                    
   </head>
 
   <body id="page-top">
@@ -31,58 +41,90 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>
+        
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+              <a class="nav-link js-scroll-trigger" href="#home">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#services">Services</a>
+              <a class="nav-link js-scroll-trigger" href="#skills">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+              <a class="nav-link js-scroll-trigger" href="#portfolio">Work</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="NEERAJA GANESH-FS-v1.doc" download> Download Resume </a>
+            </li>
+
           </ul>
         </div>
       </div>
     </nav>
 
-    <header class="masthead">
+    <header class="masthead" id="home">
       <div class="header-content">
         <div class="header-content-inner">
-          <h1 id="homeHeading">Your Favorite Source of Free Bootstrap Themes</h1>
-          <hr>
-          <p>Start Bootstrap can help you build better websites using the Bootstrap CSS framework! Just download your template and start going, no strings attached!</p>
-          <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
+          <!--<h1 id="homeHeading">Your Favorite Source of Free Bootstrap Themes</h1>-->
+          <!--<hr>-->
+            
+             <!-- Start Profile -->
+        <section id="about" class="background2 section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 section-title text-center">
+                        <h5>About</h5>
+                        <span class="section-divider"></span>
+                    </div>
+                    <!-- /.column -->
+                </div>
+                <!-- /.row -->
+                <div class="row">
+                    <div class="col-sm-4">
+                        <img alt="" src="images/Noah.jpg" class="img-responsive">
+                        <div class="profile-box">
+                            <ul class="list-unstyled">
+                                <li><strong>Name:</strong> Neeraja Ganesh</li>
+                                <li><strong>Position:</strong>Full Stack Developer</li>
+                                <li><a href="tel:940-230-4643"><strong>Phone:</strong>(940) 230 4643</a></li>
+                                <li><a href="mailto:neerajaganesh13@gmail.com"><strong>Email:</strong>neerajaganesh13@gmail.com</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- column -->
+                    <div class="col-sm-8 mt30-xs intro">
+                        <h5>Intro</h5><br>
+                        <h6>Hi, my name is Neeraja Ganesh.</h6>
+                        <p>I discovered my passion for programming in May of 2000.After developing an interest into learning how technology and coding works, I quickly joined Bachelors in University of Madras and joined TCS as an UI Developer.I started studying my Master's in 2009 and started working for HP in 2012.I started developing FullStack applications with cutting edge technologies like AngularJS,Express,MongoDB and NodeJS.
+                        </p>
+                        <span class="divider"></span>
+                        
+                    </div>
+                    <!-- /.column -->
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /.container -->
+        </section>
+        <!-- End Profile -->
+
+          
         </div>
       </div>
     </header>
-
-    <section class="bg-primary" id="about">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 mx-auto text-center">
-            <h2 class="section-heading text-white">We've got what you need!</h2>
-            <hr class="light">
-            <p class="text-faded">Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!</p>
-            <a class="btn btn-default btn-xl js-scroll-trigger" href="#services">Get Started!</a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="services">
+ 
+    
+    <section id="skills">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading">At Your Service</h2>
+            <h2 class="section-heading">Skills</h2>
             <hr class="primary">
           </div>
         </div>
@@ -91,30 +133,32 @@
         <div class="row">
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box">
-              <i class="fa fa-4x fa-diamond text-primary sr-icons"></i>
-              <h3>Sturdy Templates</h3>
-              <p class="text-muted">Our templates are updated regularly so they don't break.</p>
+              <i class="fa fa-2x fa-diamond text-primary sr-icons"></i>
+              <h4>Languages</h4>
+              <p class="text-muted">HTML5, CSS3, SCSS, SASS, LESS, Java -1.5,1.6,1.7, JSP, Java Script, JSTL, JDBC, JSON, Java Beans, EJB, Ajax, jQuery, XML, XSD, XSLT, SAX, DOM, Servlets, Swings, Multithreading, Scala, Unix Shell Scripting, Python, RMI, LOG4J, C, C++.
+              </p>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box">
-              <i class="fa fa-4x fa-paper-plane text-primary sr-icons"></i>
-              <h3>Ready to Ship</h3>
-              <p class="text-muted">You can use this theme as is, or you can make changes!</p>
+              <i class="fa fa-2x fa-paper-plane text-primary sr-icons"></i>
+              <h4>Frameworks</h4>
+              <p class="text-muted">Struts - 1.3,2, AngularJS 1.5, Node.js, Bootstrap 3, Express</p>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box">
-              <i class="fa fa-4x fa-newspaper-o text-primary sr-icons"></i>
-              <h3>Up to Date</h3>
-              <p class="text-muted">We update dependencies to keep things fresh.</p>
+              <i class="fa fa-2x fa-newspaper-o text-primary sr-icons"></i>
+              <h4>Database</h4>
+              <p class="text-muted">MSSQL Server 2012, Oracle 8i/9i/10g, DB2, MySQL5.0, MariaDB, MongoDB, Hibernate, Oracle SQL Developer
+</p>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box">
-              <i class="fa fa-4x fa-heart text-primary sr-icons"></i>
-              <h3>Made with Love</h3>
-              <p class="text-muted">You have to make your websites with love these days!</p>
+              <i class="fa fa-2x fa-heart text-primary sr-icons"></i>
+              <h4>Version Control/Build Tool</h4>
+              <p class="text-muted">Git, CVS, VSS, StarTeam, Maven, Ant, Jenkins</p>
             </div>
           </div>
         </div>
@@ -125,7 +169,7 @@
       <div class="container-fluid">
         <div class="row no-gutter popup-gallery">
           <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/1.jpg">
+            <a class="portfolio-box" href="https://neeraja83.github.io/Book_targus/">
               <img class="img-fluid" src="img/portfolio/thumbnails/1.jpg" alt="">
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
@@ -133,7 +177,7 @@
                     Category
                   </div>
                   <div class="project-name">
-                    Project Name
+                    Bookstore
                   </div>
                 </div>
               </div>
@@ -148,14 +192,14 @@
                     Category
                   </div>
                   <div class="project-name">
-                    Project Name
+                   MEAN stack
                   </div>
                 </div>
               </div>
             </a>
           </div>
           <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/3.jpg">
+            <a class="portfolio-box" href="#">
               <img class="img-fluid" src="img/portfolio/thumbnails/3.jpg" alt="">
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
@@ -163,12 +207,13 @@
                     Category
                   </div>
                   <div class="project-name">
-                    Project Name
+                   JSON
                   </div>
                 </div>
               </div>
             </a>
           </div>
+                        
           <div class="col-lg-4 col-sm-6">
             <a class="portfolio-box" href="img/portfolio/fullsize/4.jpg">
               <img class="img-fluid" src="img/portfolio/thumbnails/4.jpg" alt="">
@@ -178,7 +223,7 @@
                     Category
                   </div>
                   <div class="project-name">
-                    Project Name
+                    Jekyll
                   </div>
                 </div>
               </div>
@@ -218,31 +263,24 @@
       </div>
     </section>
 
-    <div class="call-to-action bg-dark">
-      <div class="container text-center">
-        <h2>Free Download at Start Bootstrap!</h2>
-        <a class="btn btn-default btn-xl sr-button" href="http://startbootstrap.com/template-overviews/creative/">Download Now!</a>
-      </div>
-    </div>
-
     <section id="contact">
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto text-center">
             <h2 class="section-heading">Let's Get In Touch!</h2>
             <hr class="primary">
-            <p>Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>
+            <p>Ready to start your next project with me? That's great! Give me a call or send me an email and I will get back to you as soon as possible!</p>
           </div>
         </div>
         <div class="row">
           <div class="col-lg-4 ml-auto text-center">
             <i class="fa fa-phone fa-3x sr-contact"></i>
-            <p>123-456-6789</p>
+            <p>940-230-4643</p>
           </div>
           <div class="col-lg-4 mr-auto text-center">
             <i class="fa fa-envelope-o fa-3x sr-contact"></i>
             <p>
-              <a href="mailto:your-email@your-domain.com">feedback@startbootstrap.com</a>
+              <a href="mailto:neerajaganesh13@gmail.com">neerajaganesh13@gmail.com</a>
             </p>
           </div>
         </div>
@@ -250,7 +288,7 @@
     </section>
 
     <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js"></script>
     <script src="vendor/popper/popper.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
