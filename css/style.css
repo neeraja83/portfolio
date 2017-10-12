@@ -9,3 +9,8 @@ text-center{
 p{
     color:#555;
 }
+
+div {
+  text-align:center;
+  width:100%;
+}
