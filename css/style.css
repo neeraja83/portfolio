@@ -10,10 +10,16 @@ p{
     color:#555;
 }
 
+/* Resume Embed */
+
 div {
-  text-align: center;
-  width: 100%;
+  text-align:center;
+  width:100%;
 }
+
+/*About profile*/
+
+.mt30-xs { margin-top:30px; }
 
 .section-divider {
     display: inline-block;
@@ -23,3 +29,68 @@ div {
     height: 1px;
     background-color: rgba(255, 255, 255, 0.15);
 }
+.section-title {
+    text-align: center;
+}
+
+.section-title h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 38px;
+    font-weight: 400;
+    color: #fff;
+    margin: 0;
+    line-height: .80;
+}
+
+.section-title-nocap {
+    margin-bottom: 0;
+}
+
+.img-responsive { width: 100%; }
+
+.background2 { background-color: rgba(114, 90, 54, 0.72); }
+
+.section-padding { padding-top:50px; padding-bottom:50px; }
+.section-padding-top { padding-top:50px; }
+
+.profile-box {
+	padding: 20px 30px 15px 30px;
+	background-color: #212121;
+	position: relative;
+	outline: 1px solid #2D2D2D;
+	outline-offset: -13px;
+}
+
+.profile-box strong {
+	color: #fff;
+	font-size: 16px;
+}
+
+.profile-box ul li{
+    padding:5px 0;
+    font-size: 14px;
+    border-bottom:1px solid #2D2D2D;
+}
+
+.profile-box ul li:last-child{
+    border-bottom:0;
+}
+
+span.divider {
+    display: block;
+    margin: 25px 0px;
+    width: 100px;
+    height: 2px;
+    background-color: #8980fe;
+}
+
+span.divider.center {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+    
+
+
+
